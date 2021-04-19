@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53C27ACC-8BFD-4513-91DC-9FB4E2F7AAB9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NB</RootNamespace>
+    <AssemblyName>无界加速器</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin, Version=16.1.14.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="NewLife.Core, Version=8.10.7749.40004, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\NewLife.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XCode, Version=10.0.7749.40012, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\XCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\EncryptsHelper.cs" />
+    <Compile Include="Common\Command.cs" />
+    <Compile Include="Common\NativeMethods.cs" />
+    <Compile Include="Common\SysBaseInfo.cs" />
+    <Compile Include="Controller\NFController.cs" />
+    <Compile Include="Controller\SSRController.cs" />
+    <Compile Include="Controller\TUNTAPController.cs" />
+    <Compile Include="Forms\BaseFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseFrm.Designer.cs">
+      <DependentUpon>BaseFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChooseLineFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChooseLineFrm.Designer.cs">
+      <DependentUpon>ChooseLineFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NBMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NBMessageBox.Designer.cs">
+      <DependentUpon>NBMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interops\Adapter.cs" />
+    <Compile Include="Interops\NFAPI.cs" />
+    <Compile Include="Interops\NF_STATUS.cs" />
+    <Compile Include="Interops\RedirectorConfig.cs" />
+    <Compile Include="Interops\RedirectorInterop.cs" />
+    <Compile Include="Interops\TUNTAP.cs" />
+    <Compile Include="Interops\TUNTAPConfig.cs" />
+    <Compile Include="Models\Range.cs" />
+    <Compile Include="Model\Biz\Games.Biz.cs" />
+    <Compile Include="Model\Biz\ShadowsocksR.Biz.cs" />
+    <Compile Include="Model\Games.cs" />
+    <Compile Include="Model\MyGames.cs" />
+    <Compile Include="Model\ShadowsocksR.cs" />
+    <Compile Include="MyControls\IconListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControls\IconListItem.designer.cs">
+      <DependentUpon>IconListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\LineListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControls\LineListItem.Designer.cs">
+      <DependentUpon>LineListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\MyGamesListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControls\MyGamesListItem.Designer.cs">
+      <DependentUpon>MyGamesListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\PortHelper.cs" />
+    <Compile Include="Common\StringExtension.cs" />
+    <EmbeddedResource Include="Forms\BaseFrm.resx">
+      <DependentUpon>BaseFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChooseLineFrm.resx">
+      <DependentUpon>ChooseLineFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NBMessageBox.resx">
+      <DependentUpon>NBMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControls\IconListItem.resx">
+      <DependentUpon>IconListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControls\LineListItem.resx">
+      <DependentUpon>LineListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControls\MyGamesListItem.resx">
+      <DependentUpon>MyGamesListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Lib\CSkin.dll" />
+    <Content Include="Lib\NewLife.Core.dll" />
+    <Content Include="Lib\XCode.dll" />
+    <None Include="Resources\Complete_bg.png" />
+    <None Include="Resources\status_fenge.png" />
+    <None Include="Resources\status_stop.png" />
+    <None Include="Resources\status_drop_bg.png" />
+    <None Include="Resources\status_drop.png" />
+    <None Include="Resources\status_startgame.png" />
+    <None Include="Resources\gift_hover.png" />
+    <None Include="Resources\gift_down.png" />
+    <None Include="Resources\gift_normal.png" />
+    <None Include="Resources\bkg.png" />
+    <None Include="Resources\store_down.png" />
+    <None Include="Resources\game_normal.png" />
+    <None Include="Resources\game_hover.png" />
+    <None Include="Resources\game_down.png" />
+    <None Include="Resources\store_normal.png" />
+    <None Include="Resources\store_hover.png" />
+    <None Include="Resources\nav_mygames_normal.png" />
+    <None Include="Resources\nav_mygames_down.png" />
+    <None Include="Resources\nav_mygames_enter.png" />
+    <None Include="Resources\nav_all_enter.png" />
+    <None Include="Resources\nav_all_down.png" />
+    <None Include="Resources\nav_all_normal.png" />
+    <None Include="Resources\reg_btn_enter.png" />
+    <None Include="Resources\reg_btn_normal.png" />
+    <None Include="Resources\reg_btn_down.png" />
+    <None Include="Resources\select_server_low.png" />
+    <None Include="Resources\select_server_just.png" />
+    <None Include="Resources\select_server_good.png" />
+    <None Include="Resources\select_server_network_none.png" />
+    <None Include="Resources\select_server_flush.png" />
+    <None Include="Resources\select_server_flush_enter.png" />
+    <None Include="Resources\select_server_flush_down.png" />
+    <None Include="Resources\del_down.png" />
+    <None Include="Resources\del_enter.png" />
+    <None Include="Resources\del.png" />
+    <None Include="Resources\start_success.png" />
+    <None Include="Resources\start.png" />
+    <None Include="Resources\start_x.png" />
+    <None Include="Resources\default_head.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\more.png" />
+    <None Include="Resources\more_x.png" />
+    <None Include="Resources\small_x.png" />
+    <None Include="Resources\small.png" />
+    <None Include="Resources\close_x.png" />
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('..\packages\Fody.4.2.1\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.4.2.1\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.2.1\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
+  </Target>
+</Project>

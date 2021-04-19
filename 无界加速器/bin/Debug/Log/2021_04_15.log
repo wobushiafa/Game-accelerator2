@@ -1,0 +1,16 @@
+﻿#Software: 无界加速器
+#ProcessID: 18904
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: Console
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-15
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+12:29:47.488  1 N - 异常退出！

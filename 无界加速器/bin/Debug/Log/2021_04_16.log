@@ -1,0 +1,139 @@
+﻿#Software: 无界加速器
+#ProcessID: 3408
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+09:42:16.296  6 Y - 异常退出！
+09:42:16.296 11 Y - 异常退出！
+09:42:16.296  7 Y - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 5444
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+09:42:57.188  6 Y - 异常退出！
+09:43:03.148 11 Y - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 13700
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: Console
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+11:46:32.743  1 N - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 13024
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: Console
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+11:46:43.595  1 N - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 12208
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: Console
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+11:47:41.568  1 N - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 15504
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+14:08:52.073 10 Y - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 8992
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+14:12:50.865 10 Y - 异常退出！
+
+#Software: 无界加速器
+#ProcessID: 14796
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4.8
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-16
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+16:34:07.818 10 Y - 异常退出！
+16:34:07.818  6 Y - 异常退出！

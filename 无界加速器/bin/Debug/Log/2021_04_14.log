@@ -1,0 +1,20 @@
+﻿#Software: 无界加速器
+#ProcessID: 18272
+#AppDomain: 无界加速器.exe
+#FileName: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe
+#BaseDirectory: C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\
+#TempPath: C:\Users\27359\AppData\Local\Temp\
+#CommandLine: "C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\无界加速器.exe" 
+#ApplicationType: Console
+#CLR: 4.0.30319.42000, .NET Framework 4.6.1
+#OS: Microsoft Windows NT 10.0.19042.0, DESKTOP-C5E5NB6/27359
+#CPU: 8
+#GC: IsServerGC=False, LatencyMode=Interactive
+#Date: 2021-04-14
+#字段: 时间 线程ID 线程池Y/网页W/普通N/定时T 线程名/任务ID 消息内容
+#Fields: Time ThreadID Kind Name Message
+15:47:10.518  1 N - NewLife.Core v8.10.2021.0320 Build 2021-03-20 22:13:28 .NET Framework 4.6
+15:47:10.519  1 N - X组件核心库 ©2002-2021 NewLife
+15:47:10.519  1 N - 无界加速器 v1.0.0.0 Build 2000-01-01 .NET Framework 4.6.1
+15:47:10.519  1 N - 无界加速器 Copyright ©  2021
+15:47:10.519  1 N - 保存配置 C:\Users\27359\source\repos\无界加速器\无界加速器\bin\Debug\Config\Core.config
