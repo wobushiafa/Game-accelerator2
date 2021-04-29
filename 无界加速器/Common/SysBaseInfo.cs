@@ -16,7 +16,7 @@ namespace NB.Common
         public static List<string> Rule = new List<string>();
         public static List<string> NFRule = new List<string>();
 
-        public static string WebUrl = "http://15s700026n.51mypc.cn/Games/";
+        public static string WebUrl = "https://www.zsyf.link/Games/";
 
     }
 
